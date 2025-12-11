@@ -4,6 +4,7 @@
 }
 
 html {
+  background-image: linear-gradient(to bottom, #ff9e9e, #ffc1c1, #ffffff);
   color: #222;
   line-height: 1.4;
   font-size: 16pt;
