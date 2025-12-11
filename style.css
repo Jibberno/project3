@@ -19,16 +19,6 @@ header nav {
   justify-content: center;
 }
 
-a {
-  color: white
-  text-decoration: none;
-}
-
-nav a:hover{
-  text-decoration: underline;
-  color: blue
-}
-
 main {
   text-align: center;
   margin: 15px 500px 30px;
@@ -44,6 +34,15 @@ h2{
 
 h4{
   font-size: 25px;
+}
+
+.JustMonika {
+  display: flex;
+  margin: 0 auto;
+  width: auto;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
 }
 
 .Monika {
