@@ -33,8 +33,13 @@ nav a:hover{
 }
 
 main {
+
+}
+
+.geninfo {
   text-align: center;
   margin: 15px 500px 30px;
+  height: 90px;
 }
 
 h1 {
@@ -53,10 +58,8 @@ h4{
   display: flex;
   margin: 0 auto;
   width: auto;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  
+  align-items: left;
+  width: 180px;
 }
 
 .Monika {
