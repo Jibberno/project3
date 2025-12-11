@@ -20,7 +20,7 @@ header nav {
 }
 
 main {
-  text-align: center;
+  margin: 15px 500px 30px;
 }
 
 h1 {
@@ -33,4 +33,16 @@ h2{
 
 h4{
   font-size: 25px;
+}
+
+.Monika {
+  float: left;
+  margin: 35px;
+}
+
+.MonDesc {
+  width: 45vw;
+  position: relative
+  text-align: right;
+  left: 40vw;
 }
