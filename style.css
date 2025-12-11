@@ -20,6 +20,7 @@ header nav {
 }
 
 main {
+  text-align: center;
   margin: 15px 500px 30px;
 }
 
@@ -45,4 +46,22 @@ h4{
   position: relative
   text-align: right;
   left: 40vw;
+}
+
+@media only screen and (max-width: 480px) {
+  main {
+    margin: 15px 20px 10px;
+  }
+
+  h1 {
+    font-size: 45px;
+  }
+
+  h2{
+    font-size: 25px;
+  }
+
+  h4{
+    font-size: 20px;
+  }
 }
