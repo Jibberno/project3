@@ -16,7 +16,7 @@ header nav {
   display: flex;
   flex-direction: row;
   padding: 30px;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 a {
@@ -39,7 +39,7 @@ main {
 
 .geninfo{
   display: flex;
-  
+
 }
 
 h1 {
