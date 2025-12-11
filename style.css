@@ -8,9 +8,25 @@ html {
   color: #222;
   line-height: 1.4;
   font-size: 16pt;
+  min-height: 100%;
 }
 
+header nav {
+  color: black;
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  justify-content: center;
+}
 
+main {
+  text-align: center;
+}
 
+h1 {
+  font-size: 90px;
+}
 
-
+h4{
+  font-size: 50px;
+}
