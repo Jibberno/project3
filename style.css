@@ -20,6 +20,7 @@ header nav {
 }
 
 a {
+  font-family: Beauty-Drawing;
   text-decoration: none;
   font-size: 1.15rem;
   color: #292929
@@ -56,6 +57,7 @@ nav a:hover{
 }
 
 h1 {
+  font-family: Beauty-Drawing;
   font-size: 90px;
 }
 
