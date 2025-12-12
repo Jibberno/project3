@@ -10,7 +10,6 @@ html {
   line-height: 1.4;
   font-size: 16pt;
   min-height: 100%;
-  font: lora;
 }
 
 header nav {
@@ -24,7 +23,7 @@ header nav {
 
 a {
   text-decoration: none;
-  font-size: 1.15rem;
+  font-size: 2.1rem;
   color: #292929
 }
 
@@ -32,18 +31,20 @@ nav a:hover{
   transition: all ease-out 200ms;
   -webkit-text-stroke: 0.9px white;
   text-decoration: underline;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   color: black
   
 }
 
 .geninfo {
+  font-family: lora;
   text-align: center;
   margin: 15px 500px 30px;
   height: 90px;
 }
 
 .about {
+  
   position: relative;
   width: 730px;
   margin: 4rem auto;
@@ -61,11 +62,6 @@ nav a:hover{
 h1 {
   font-family: Beauty-Drawing, 'Times New Roman', Times, serif;
   font-size: 90px;
-}
-
-schedule, h1{
-  text-align: center;
-  font-size: 50px;
 }
 
 h2{
@@ -88,6 +84,12 @@ h4{
   margin: 45px;
 }
 
+@font-face {
+    font-family: Beauty-Drawing;
+    src: url(assets/beauty-drawing.regular.ttf) format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
 @media only screen and (max-width: 480px) {
   main {
