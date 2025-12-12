@@ -10,6 +10,7 @@ html {
   line-height: 1.4;
   font-size: 16pt;
   min-height: 100%;
+  font-family: lora, 'Times New Roman', Times, serif;
 }
 
 header nav {
@@ -37,14 +38,12 @@ nav a:hover{
 }
 
 .geninfo {
-  font-family: lora;
   text-align: center;
   margin: 15px 500px 30px;
   height: 90px;
 }
 
 .about {
-  
   position: relative;
   width: 730px;
   margin: 4rem auto;
@@ -89,7 +88,7 @@ h4{
     src: url(assets/beauty-drawing.regular.ttf) format('truetype');
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
 
 @media only screen and (max-width: 480px) {
   main {
