@@ -42,12 +42,10 @@ nav a:hover{
 
 .about {
   position: relative;
-  top: 30px;
-  width: auto;
-  margin: 2%;
+  width: 730px;
+  margin: 4rem auto;
   left: auto;
 }
-
 h1 {
   font-size: 90px;
 }
