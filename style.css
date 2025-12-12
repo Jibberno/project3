@@ -43,9 +43,9 @@ nav a:hover{
 .about {
   position: relative;
   top: 30px;
-  width: 1000px;
+  width: auto;
   margin: 2%;
-  left: 340px;
+  left: auto;
 }
 
 h1 {
