@@ -34,18 +34,23 @@ nav a:hover{
   
 }
 
-main {
-
-}
-
 .geninfo {
   text-align: center;
   margin: 15px 500px 30px;
   height: 90px;
 }
 
+.about {
+  position: relative;
+  top: 30px;
+  width: 1000px;
+  margin: 2%;
+  left: 340px;
+}
+
 h1 {
   font-size: 90px;
+  text-align: right;
 }
 
 h2{
@@ -61,20 +66,13 @@ h4{
   margin: 0 auto;
   width: auto;
   align-items: left;
-  width: 180px;
 }
 
 .Monika {
-  float: left;
-  margin: 35px;
+  float: inline-start;
+  margin: 45px;
 }
 
-.MonDesc {
-  width: 45vw;
-  position: relative
-  text-align: right;
-  left: 40vw;
-}
 
 @media only screen and (max-width: 480px) {
   main {
