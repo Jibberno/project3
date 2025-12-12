@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+  @font-face {
+    font-family: Beauty-Drawing;
+    src: url(assets/beauty-drawing.regular.ttf);
+  }
+
 html {
   background-image: linear-gradient(to bottom, #ff9e9e, #ffc1c1, #ffffff);
   color: #222;
