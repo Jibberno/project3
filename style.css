@@ -17,6 +17,7 @@ html {
 }
 
 header nav {
+  font-family: Beauty-Drawing, 'Times New Roman', Times, serif;
   color: black;
   display: flex;
   flex-direction: row;
@@ -25,7 +26,6 @@ header nav {
 }
 
 a {
-  font-family: Beauty-Drawing;
   text-decoration: none;
   font-size: 1.15rem;
   color: #292929
@@ -62,7 +62,7 @@ nav a:hover{
 }
 
 h1 {
-  font-family: Beauty-Drawing;
+  font-family: Beauty-Drawing, 'Times New Roman', Times, serif;
   font-size: 90px;
 }
 
