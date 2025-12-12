@@ -10,6 +10,7 @@ html {
   line-height: 1.4;
   font-size: 16pt;
   min-height: 100%;
+  font: lora;
 }
 
 header nav {
@@ -82,10 +83,6 @@ h4{
   margin: 45px;
 }
 
-@font-face {
-    font-family: Beauty-Drawing;
-    src: url(assets/beauty-drawing.regular.ttf) format('truetype');
-}
 
 @media only screen and (max-width: 480px) {
   main {
