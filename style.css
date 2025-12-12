@@ -40,7 +40,7 @@ nav a:hover {
   text-align: center;
   margin: 15px 500px 30px;
   height: 90px;
-  animation: text-flicker-in-glow 4s;
+  animation: text-pop-up-top 3s;
 }
 
 .about {
@@ -61,7 +61,6 @@ nav a:hover {
 h1 {
   font-family: Beauty-Drawing, 'Times New Roman', Times, serif;
   font-size: 90px;
-  animation: text-pop-up-top 3s;
 }
 
 .schedule,
