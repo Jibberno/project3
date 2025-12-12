@@ -46,6 +46,15 @@ nav a:hover{
   margin: 4rem auto;
   left: auto;
 }
+
+.schedule {
+  
+  position: relative;
+  width: 730px;
+  margin: 4rem auto;
+  left: auto;
+}
+
 h1 {
   font-size: 90px;
 }
@@ -99,5 +108,12 @@ h4{
   margin: 2%;
   left: 0px;
 }
+
+  .schedule {
+  top: 30px;
+  width: 300px;
+  margin: 2%;
+  left: 0px;
+  }
   
 }
