@@ -5,7 +5,7 @@
 
   @font-face {
     font-family: Beauty-Drawing;
-    src: url(assets/beauty-drawing.regular.ttf);
+    src: url(assets/beauty-drawing.regular.ttf) format('truetype');
   }
 
 html {
