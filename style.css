@@ -19,7 +19,7 @@ header nav {
   display: flex;
   flex-direction: row;
   padding: 30px;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 a {
