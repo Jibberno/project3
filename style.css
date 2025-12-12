@@ -61,7 +61,7 @@ h4{
 }
 
 .JustMonika {
-  display: flex;
+  float: inline-end;
   margin: 0 auto;
   width: auto;
   align-items: left;
