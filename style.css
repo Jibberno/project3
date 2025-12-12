@@ -22,14 +22,16 @@ header nav {
 a {
   text-decoration: none;
   font-size: 1.15rem;
-  color: white
+  color: #292929
 }
 
 nav a:hover{
   transition: all ease-out 200ms;
+  -webkit-text-stroke: 0.9px white;
   text-decoration: underline;
   font-size: 1.5rem;
-  color: blue
+  color: black
+  
 }
 
 main {
