@@ -49,12 +49,10 @@ nav a:hover{
 
 .grid-container {
   display: grid;
-  grid-template: repeat(4, 250px) / repeat(1, 250px);
-  gap: 0px 50;
+  grid-template: repeat(4, 130px) / repeat(1, 320px);
   position: relative;
   width: 730px;
   margin: 4rem auto;
-  left: auto;
 }
 
 h1 {
