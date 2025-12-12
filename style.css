@@ -3,10 +3,6 @@
   padding: 0;
 }
 
-@font-face {
-    font-family: Beauty-Drawing;
-    src: url(assets/beauty-drawing.regular.ttf) format('truetype');
-}
 
 html {
   background-image: linear-gradient(to bottom, #ff9e9e, #ffc1c1, #ffffff);
@@ -86,6 +82,10 @@ h4{
   margin: 45px;
 }
 
+@font-face {
+    font-family: Beauty-Drawing;
+    src: url(assets/beauty-drawing.regular.ttf) format('truetype');
+}
 
 @media only screen and (max-width: 480px) {
   main {
