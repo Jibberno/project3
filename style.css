@@ -91,16 +91,26 @@ h4 {
   margin: 45px;
 }
 
-.chibi {
-  transition-property: all 1000ms ease-in-out;
-}
+ .chibi {
+    float: none;
+    margin: 45px;
+    animation: dspin 10s ease-in-out;
+    animation-iteration-count: infinite;
+  }
 
 @font-face {
   font-family: Beauty-Drawing;
   src: url(assets/beauty-drawing.regular.ttf) format('truetype');
 }
 
-
+  @keyframes dspin{
+    from {
+      transform: rotateY(0deg);
+    }
+    to{
+      transform: rotateY(360deg);
+    }
+  }
 
 @media only screen and (max-width: 480px) {
   main {
@@ -132,7 +142,7 @@ h4 {
   .chibi {
     float: none;
     margin: 45px;
-    animation: dspin 10s;
+    animation: dspin 10s ease-in-out;
     animation-iteration-count: infinite;
   }
 
@@ -148,15 +158,6 @@ h4 {
     width: 300px;
     margin: 2%;
     left: 0px;
-  }
-
-  @keyframes dspin{
-    from {
-      transform: rotateY(0deg);
-    }
-    to{
-      transform: rotateY(360deg);
-    }
   }
 
 /* ----------------------------------------------
