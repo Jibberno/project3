@@ -54,8 +54,8 @@ nav a:hover{
   display: grid;
   grid-template: repeat(4, 130px) / repeat(1, 320px);
   position: relative;
-  width: 730px;
   margin: 4rem auto;
+  justify-self: center;
 }
 
 h1 {
