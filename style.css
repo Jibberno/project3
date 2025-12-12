@@ -93,7 +93,7 @@ h4 {
 
 .chibi {
   transition-property: all;
-  transition-duration: ;
+  transition-duration: 1000ms;
   animation: flip 1000ms ease-out;
   animation-iteration-count: infinite;
 }
