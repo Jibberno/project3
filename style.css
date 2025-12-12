@@ -132,6 +132,8 @@ h4 {
   .chibi {
     float: none;
     margin: 45px;
+    animation: 3dspin 10s;
+    animation-iteration-count: infinite;
   }
 
   .about {
