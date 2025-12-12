@@ -91,6 +91,11 @@ h4{
   margin: 45px;
 }
 
+.chibi{
+  animation: flip 1000ms ease-out;
+  animation-iteration-count: infinite;
+}
+
 @font-face {
     font-family: Beauty-Drawing;
     src: url(assets/beauty-drawing.regular.ttf) format('truetype');
