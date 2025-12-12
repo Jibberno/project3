@@ -63,6 +63,10 @@ h1 {
   font-size: 90px;
 }
 
+.schedule, h1{
+  text-align: center;
+}
+
 h2{
   font-size: 50px;
 }
