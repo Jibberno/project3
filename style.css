@@ -95,10 +95,11 @@ h4 {
 }
 
 .chibi {
-  float: none;
+  float: inline-end;
   margin: 45px;
   animation: dspin 10s ease-in-out;
   animation-iteration-count: infinite;
+  justify-self: center;
 }
 
 @font-face {
