@@ -84,10 +84,10 @@ h4 {
 }
 
 .JustMonika {
-  float: inline-end;
+  float: none;
   margin: 0 auto;
   width: auto;
-  align-items: left;
+  justify-self: center;
 }
 
 .Monika {
@@ -104,14 +104,17 @@ h4 {
   grid-column: 2 / span 2;
 }
 
+.Sources{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 footer a{
   font-size: 20px;
   font-family: lora, 'Times New Roman', Times, serif;
   color: black;
-  display: flex;
-  flex-direction: row;
   padding: 30px;
-  justify-content: space-around;
 }
 
 @font-face {
