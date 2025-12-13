@@ -53,7 +53,7 @@ nav a:hover {
 
 .grid-container {
   display: grid;
-  grid-template: repeat(5, 130px) / repeat(1, 320px);
+  grid-template: repeat(6, 130px) / repeat(2, 320px);
   position: relative;
   margin: 4rem auto;
   justify-self: center;
@@ -63,10 +63,9 @@ h1 {
   font-family: Beauty-Drawing, 'Times New Roman', Times, serif;
   font-size: 90px;
   animation: text-pop-up-top 3s;
-  animation-fill-mode: forwards;
 }
 
-.schedule
+.schedule,
 h1 {
   text-align: center;
 }
@@ -96,11 +95,12 @@ h4 {
 }
 
 .chibi {
-  float: inline-end;
   margin: 45px;
   animation: dspin 10s ease-in-out;
   animation-iteration-count: infinite;
   justify-self: center;
+  grid-row: 1 / span 3;
+  grid-column: 2 / span 2;
 }
 
 @font-face {
