@@ -104,6 +104,16 @@ h4 {
   grid-column: 2 / span 2;
 }
 
+footer a{
+  font-size: 20px;
+  font-family: lora, 'Times New Roman', Times, serif;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  justify-content: space-around;
+}
+
 @font-face {
   font-family: Beauty-Drawing;
   src: url(assets/beauty-drawing.regular.ttf) format('truetype');
