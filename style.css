@@ -40,7 +40,8 @@ nav a:hover {
   text-align: center;
   margin: 15px 500px 30px;
   height: 90px;
-  animation: text-pop-up-top 3s;
+  animation: text-flicker-in-glow 3s;
+  animation-fill-mode: forwards;
 }
 
 .about {
@@ -61,6 +62,7 @@ nav a:hover {
 h1 {
   font-family: Beauty-Drawing, 'Times New Roman', Times, serif;
   font-size: 90px;
+  animation: text-pop-up-top 3s;
 }
 
 .schedule,
@@ -149,8 +151,10 @@ h4 {
 
   .geninfo {
     text-align: center;
-    margin: 15px 0px 30px;
-    height: 240px;
+    margin: 15px 500px 30px;
+    height: 90px;
+    animation: text-pop-up-top 3s;
+    animation-fill-mode: forwards;
   }
 
   .chibi {
