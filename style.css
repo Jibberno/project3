@@ -63,9 +63,10 @@ h1 {
   font-family: Beauty-Drawing, 'Times New Roman', Times, serif;
   font-size: 90px;
   animation: text-pop-up-top 3s;
+  animation-fill-mode: forwards;
 }
 
-.schedule,
+.schedule
 h1 {
   text-align: center;
 }
