@@ -159,11 +159,21 @@ h4 {
     animation-fill-mode: forwards;
   }
 
+  .grid-container {
+  display: grid;
+  grid-template: repeat(7, 130px) / repeat(1, 320px);
+  position: relative;
+  margin: 4rem auto;
+  justify-self: center;
+}
+
   .chibi {
-    float: none;
-    margin: 45px;
+    
     animation: dspin 10s ease-in-out;
     animation-iteration-count: infinite;
+    justify-self: center;
+    grid-row: 1 / span 4;
+    grid-column: 1;
   }
 
   .about {
